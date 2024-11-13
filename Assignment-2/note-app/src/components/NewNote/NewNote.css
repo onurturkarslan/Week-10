@@ -1,0 +1,34 @@
+.new-note {
+    position: relative;
+  }
+  
+  #note-area {
+    width: 100%;
+    height: 20rem;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+  }
+  
+  .controls {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transform: translateY(-150%);
+    padding: 0 2rem;
+  }
+  
+  .add-btn {
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    border-radius: 4rem;
+    border-style: none;
+    cursor: pointer;
+    color: #242424;
+    background-color: green;
+  }
+  
+  .add-btn:hover {
+    box-shadow: greenyellow 0rem 0rem 0.1rem;
+  }

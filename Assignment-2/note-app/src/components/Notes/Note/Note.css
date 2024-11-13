@@ -1,0 +1,9 @@
+.note {
+    height: min-content;
+    border-radius: 0.3rem;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    font-family: Courier-New;
+  }
